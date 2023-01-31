@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
-import BarChart from "./components/BarChart"
+// import BarChart from "./components/BarChart"
+import React from "react";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <div className="container">
         <h1>Spending - Last 7 days</h1>
 
-        <BarChart />
+        {/* <BarChart /> */}
         <ul className="flex">
           <li>mon</li>
           <li>tue</li>
